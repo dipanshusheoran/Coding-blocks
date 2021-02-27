@@ -1,0 +1,48 @@
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Nunito', sans-serif;
+}
+.title{
+    text-align: center;
+    color: #424949;
+    margin: 0px;
+}
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    width: 60vw;
+    height: 80vh;
+    background-color:#EAEDED;
+    margin: 10px auto;
+
+}
+.contact{
+    border-bottom: 2px solid black;
+    height: 40px;
+}
+.contact p{
+    display: inline-block;
+    font-size: 20px;
+} 
+dd{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2px;
+}
+
+dt{
+    background-color: #BFC9CA;
+    position: sticky;
+    top: 5px;
+    font-size: 2em;
+    margin-left: 5px;
+    box-shadow: 4px 2px 5px black;
+}
+.number::before{
+    content: '\1F4DE';
+}
+.name:before{
+    content: '\1F464';
+}
